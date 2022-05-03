@@ -1,0 +1,23 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.cell" />
+          <option value="list.split" />
+          <option value="Tests.login.webdriver_manager" />
+          <option value="str.username_value" />
+          <option value="str.password_value" />
+          <option value="str.login_url" />
+          <option value="int.login_url" />
+          <option value="Locators.locators" />
+          <option value="str.str" />
+          <option value="locators" />
+          <option value="str.value" />
+          <option value="list.size" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
