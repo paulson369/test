@@ -62,7 +62,7 @@ class Story(unittest.TestCase):
         driver.find_element(by=By.NAME, value='storyAuthorName').send_keys('WeblyQA')
         driver.find_element(by=By.NAME, value='storyButtonText').send_keys('Apply')
         driver.find_element(by=By.ID, value='avatar').send_keys('D:/Wilso/ASSETS/5.jpg')
-        time.sleep(2)
+        time.sleep(5)
         driver.find_element(by=By.XPATH, value='//button[text()="Add"]').click()
         check_url_photo = driver.find_element(by=By.XPATH, value="/html/body/div/div[1]/main/div/div/div/div[1]/div/div[3]/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/div[2]/input").get_attribute('id')
         print(check_url_photo)
